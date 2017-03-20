@@ -167,6 +167,10 @@ ul {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
+.grey-background {
+	background-color: white;
+}
+
 .contact-img {
 	width: 50px;
 	margin: auto;
