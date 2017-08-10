@@ -123,6 +123,8 @@ ul {
 
 .contact-text {
 	margin-top: 150px;
+	padding-top: 20px;
+	color: white;
 }
 
 .contact-info {
@@ -139,7 +141,12 @@ ul {
 
 }
 
-.contact-link {
+.contact-link-home {
+	font-size: 24px;
+	color: white;
+}
+
+.contact-link-subpage {
 	font-size: 24px;
 	color: black;
 }
@@ -168,7 +175,9 @@ ul {
 }
 
 .grey-background {
-	background-color: white;
+	background-color: black;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
 }
 
 .contact-img {
@@ -177,9 +186,134 @@ ul {
 	display: block;
 }
 
+.arrow {
+	width: 120px;
+	display: inline;
+	float: right;
+	margin-right: 440px;
+	position: relative;
+	bottom: 32px;
+	-webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+
+}
+
+.btn-info {
+	background-color: #CCEADD;
+	color: black;
+}
+
+.btn-info:hover, .btn-info:focus {
+	background-color: green;
+	border-color: black;
+}
+
+.modal-image {
+	width: 150px;
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.question {
+	width: 500px;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 30px;
+	font-size: 24px;
+}
+
+.numberCircle {
+   	border-radius: 50%;
+   	width: 50px;
+    height: 50px;
+
+    background: white;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    vertical-align: middle;
+}
+
+.answers {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	margin-right: 50px;
+	color: #617069;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.answers li { 
+list-style: upper-alpha; 
+} 
+
+label { 
+margin-left: 0.5em; 
+cursor: pointer; 
+} 
+
+#results { 
+background: #CCEADD; 
+color: 000000; 
+padding: 8px; 
+text-align: center; 
+width: 200px; 
+height: 50px;
+cursor: pointer; 
+border: 2px solid black;
+margin: auto; 
+margin-bottom: 30px;
+}
+
+.results-text {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+}
+
+#results:hover { 
+background: green; 
+color: black; 
+padding: 8px; 
+text-align: center; 
+width: 200px; 
+cursor: pointer; 
+border: 2px solid black;
+} 
+
+#categorylist { 
+margin-top: 6px; 
+display: none; 
+} 
+
+#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10, #category11 { 
+display: none; 
+}
+
+#closing {
+display: none;
+font-style: italic;
+}
+
+.question {
+	margin-top: 15px;
+}
+
+
 @media only screen and (min-width: 760px) {
 	.responsive-image {
 		width: 300px;
+	}
+	.arrow {
+		width: 120px;
 	}
 }
 
@@ -193,5 +327,9 @@ ul {
 
 	.contact-text {
 		margin-top: 0px;
+	}
+
+	.arrow {
+		display: none;
 	}
 }
